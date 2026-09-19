@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "anti_offhand_place"
+version = "${version}"
+displayName = "anti offhand place"
+authors = "pat600130"
+description = '''allows you to prevent yourself from placing a block in your offhand
+for example if you have an item like a torch in your offhand(for dynamic lights or sm) it prevents you from placing it
+'''
+#logoFile = ""
+
+[[dependencies.anti_offhand_place]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.anti_offhand_place]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.anti_offhand_place]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "CLIENT"
